@@ -1,0 +1,7 @@
+{
+  "name": "AutoCollapseFolders",
+  "description": "Collapse folder when moving away from a server in that folder",
+  "author": ".intrnl#6380",
+  "version": "1.0.0",
+  "license": "GPL-3.0"
+}
