@@ -9,6 +9,8 @@ const GuildFolderStore = getModule(['getExpandedFolders'], false);
 
 class AutoCollapseFolders extends Plugin {
   constructor () {
+    super();
+
     this._changeListener = () => {
       const prevGuildID = this._currentGuildID;
       const currGuildID = CurrentGuildStore.getLastSelectedGuildId();
